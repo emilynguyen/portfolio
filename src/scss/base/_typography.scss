@@ -167,7 +167,11 @@ ul {
 $styled-li-indent: 1ch;
 .styled-lists {
   li {
-    margin-left: $spacer-2;
+    &:not(:last-of-type) {
+      margin-bottom: $spacer-1;
+    }
+  }
+  ul li {
     margin-left: $styled-li-indent * 2;
     padding-left: $styled-li-indent;
     text-indent: -$styled-li-indent;
@@ -176,9 +180,11 @@ $styled-li-indent: 1ch;
       display: inline-block;
       width: $styled-li-indent;
     }
-    &:not(:last-of-type) {
-      margin-bottom: $spacer-1;
-    }
+  }
+  ol li {
+    margin-left: $styled-li-indent * 4;
+    padding-left: $styled-li-indent * 2;
+    text-indent: -$styled-li-indent * 2;
   }
 }
 

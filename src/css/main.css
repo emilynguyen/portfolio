@@ -1794,17 +1794,22 @@ p a:not(.btn), p #close-all-btn:not(.btn),
 ul {
   list-style: none; }
 
-.styled-lists li {
-  margin-left: 3rem;
+.styled-lists li:not(:last-of-type) {
+  margin-bottom: 1.5rem; }
+
+.styled-lists ul li {
   margin-left: 2ch;
   padding-left: 1ch;
   text-indent: -1ch; }
-  .styled-lists li:before {
+  .styled-lists ul li:before {
     content: "*";
     display: inline-block;
     width: 1ch; }
-  .styled-lists li:not(:last-of-type) {
-    margin-bottom: 1.5rem; }
+
+.styled-lists ol li {
+  margin-left: 4ch;
+  padding-left: 2ch;
+  text-indent: -2ch; }
 
 ol {
   list-style-type: decimal-leading-zero; }
