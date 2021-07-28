@@ -2,12 +2,13 @@
   "projects": [
     {
       "title": "Sun God Festival 2019",
-      "url": "http://sgf.ucsd.edu/2019/",
+      "url": "/sgf",
       "newWindow": true,
       "img": "sgf/preview.gif"
     },
     {
       "title": "Stride Career Fair",
+      "hide": true,
       "url": "http://stride.ucsddesign.co/2019",
       "newWindow": true,
       "img": "stride/preview.gif"
@@ -31,6 +32,7 @@
     },
     {
       "title": "Design Frontiers",
+      "hide": true,
       "url": "http://frontiers.ucsddesign.co/sp19",
       "newWindow": true,
       "img": "frontiers/preview.jpg"

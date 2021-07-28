@@ -1589,19 +1589,23 @@ $distance-translate-tb: 0.02em;
 
 @font-face {
   font-family: "Mabry Mono Pro";
-  src: url("../fonts/mabry/MabryMonoPro-Bold.woff2") format("woff2"), url("../fonts/mabry/MabryMonoPro-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap; }
-
-@font-face {
-  font-family: "Mabry Mono Pro";
   src: url("../fonts/mabry/MabryMonoPro-Italic.woff2") format("woff2"), url("../fonts/mabry/MabryMonoPro-Italic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap; }
 
 /*
+
+
+@font-face {
+  font-family: "Mabry Mono Pro";
+  src: url("../fonts/mabry/MabryMonoPro-Bold.woff2") format("woff2"),
+    url("../fonts/mabry/MabryMonoPro-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 @font-face {
   font-family: "Continua";
   src: url("../fonts/continua/Continua-Regular.woff2") format("woff2"),
@@ -2029,42 +2033,41 @@ header .iso-container {
       margin-left: 0; } }
 
 @media (hover: hover) {
-  .project-container:hover .end0,
-  .iso-container:hover .end0 {
-    -webkit-transform: translateY(0);
-            transform: translateY(0); }
-  .project-container:hover .end1,
-  .iso-container:hover .end1 {
-    -webkit-transform: translateY(-1.5rem);
-            transform: translateY(-1.5rem); }
-  .project-container:hover .end2,
-  .iso-container:hover .end2 {
-    -webkit-transform: translateY(-3rem);
-            transform: translateY(-3rem); }
-  .project-container:hover .end-1,
-  .iso-container:hover .end-1 {
-    -webkit-transform: translateY(1.5rem);
-            transform: translateY(1.5rem); }
-  .project-container:hover .end-2,
-  .iso-container:hover .end-2 {
-    -webkit-transform: translateY(3rem);
-            transform: translateY(3rem); }
-  .project-container:hover .end1,
-  .iso-container:hover .end1 {
-    -webkit-transform: translateY(-12%);
-            transform: translateY(-12%); }
-  .project-container:hover .end2,
-  .iso-container:hover .end2 {
-    -webkit-transform: translateY(-24%);
-            transform: translateY(-24%); }
-  .project-container:hover .end-1,
-  .iso-container:hover .end-1 {
-    -webkit-transform: translateY(12%);
-            transform: translateY(12%); }
-  .project-container:hover .end-2,
-  .iso-container:hover .end-2 {
-    -webkit-transform: translateY(24%);
-            transform: translateY(24%); } }
+  .project-container:hover .end,
+  .iso-container:hover .end {
+    /*
+      &1 {
+        transform: translateY(-$spacer-1);
+      }
+      &2 {
+        transform: translateY(-$spacer-2);
+      }
+      &-1 {
+        transform: translateY($spacer-1);
+      }
+      &-2 {
+        transform: translateY($spacer-2);
+      } */ }
+    .project-container:hover .end0,
+    .iso-container:hover .end0 {
+      -webkit-transform: translateY(0);
+              transform: translateY(0); }
+    .project-container:hover .end1,
+    .iso-container:hover .end1 {
+      -webkit-transform: translateY(-13%);
+              transform: translateY(-13%); }
+    .project-container:hover .end2,
+    .iso-container:hover .end2 {
+      -webkit-transform: translateY(-26%);
+              transform: translateY(-26%); }
+    .project-container:hover .end-1,
+    .iso-container:hover .end-1 {
+      -webkit-transform: translateY(13%);
+              transform: translateY(13%); }
+    .project-container:hover .end-2,
+    .iso-container:hover .end-2 {
+      -webkit-transform: translateY(26%);
+              transform: translateY(26%); } }
 
 .iso-container {
   position: relative;
@@ -2106,17 +2109,17 @@ header .iso-container {
     -webkit-transform: translateY(3rem);
             transform: translateY(3rem); }
   .iso-container .start1 {
-    -webkit-transform: translateY(-12%);
-            transform: translateY(-12%); }
+    -webkit-transform: translateY(-13%);
+            transform: translateY(-13%); }
   .iso-container .start2 {
-    -webkit-transform: translateY(-24%);
-            transform: translateY(-24%); }
+    -webkit-transform: translateY(-26%);
+            transform: translateY(-26%); }
   .iso-container .start-1 {
-    -webkit-transform: translateY(12%);
-            transform: translateY(12%); }
+    -webkit-transform: translateY(13%);
+            transform: translateY(13%); }
   .iso-container .start-2 {
-    -webkit-transform: translateY(24%);
-            transform: translateY(24%); }
+    -webkit-transform: translateY(26%);
+            transform: translateY(26%); }
 
 #work-page {
   /*
