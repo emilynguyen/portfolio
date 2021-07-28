@@ -46,7 +46,6 @@
               "full": true,
               "alt": "IG swipe through"
             },
-
             {
               "image": "mongodb/innovationawardlight.png",
               "half": true,
@@ -81,8 +80,8 @@
       ]
     },
     {
-      "title": "New Website for Triton Outfitters",
-      "unlisted": true,
+      "title": "Triton Outfitters — New Website",
+      "hide": true,
       "year": 20,
       "sub": "Web Design, Web Development",
       "url": "to",
@@ -127,10 +126,10 @@
       ]
     },
     {
-      "title": "Vox Media — Podcast Art Design System",
+      "title": "Vox Media _ Podcast Art Design System",
       "year": 19,
       "display": "Podcast_Art_Design_System.txt",
-      "sub": "Brand Design",
+      "sub": "Brand Design, Design Systems",
       "size": "two-fifths",
       "url": "vox",
       "isoPath": "vox",
@@ -149,12 +148,8 @@
         }
       },
       "landing": "none",
-      "description": "Built a design system for Vox Media Podcast Network's artwork.",
+      "description": "Design system for Vox Media Podcast Network's artwork.",
       "details": [
-        {
-          "title": "Role",
-          "content": "Brand Design Intern"
-        },
         {
           "title": "Team",
           "content": "Project managers — Laylah Donnell, Krystal Stevens<br>Mentor – Courtney Leonard"
@@ -173,7 +168,7 @@
         },
         {
           "title": "Competitive Analysis",
-          "captionBefore": "<p>Assessed our competitors’ design systems to identify how different placement guidelines influenced or aligned with different elements of podcast art.</p>",
+          "captionBefore": "<p>I kicked off this project by first assessing our competitors’ design systems to identify how different placement guidelines influenced or aligned with different elements of podcast art.</p>",
           "alt": "Grid systems of podcast art from Audioboom, Earwolf, Gimlet, NPR, The New York Times, PodcastOne, Slate, TED, WNYC Studios, and Wondery",
           "gallery": true,
           "block": true,
@@ -192,7 +187,7 @@
         },
         {
           "title": "Audit",
-          "captionBefore": "<p>Assessed our own podcast art to pinpoint areas that could benefit from structured guidelines.</p>",
+          "captionBefore": "<p>Next, I assessed our own podcast art to pinpoint areas that could benefit from structured guidelines.</p>",
           "gallery": true,
           "block": true,
           "content": [
@@ -222,10 +217,9 @@
       ]
     },
     {
-      "title": "Design Co_Growing a Design Community at UCSD",
-      "hide": true,
+      "title": "Design Co _ Growing a Design Community at UCSD",
       "year": "17–19",
-      "sub": "Brand Design, Web Design, Web Development",
+      "sub": "Brand Design, Web Design, Web Development, Leadership",
       "url": "design-co",
       "isoPath": "design-co",
       "iso": {
@@ -342,19 +336,11 @@
         }
       ]
     },
-
     {
       "title": "Salesforce Design Internship",
       "hide": true,
-      "display": "Salesforce_Design_Internship.txt",
-      "size": "two-fifths",
       "sub": "UX Design",
       "url": "salesforce",
-      "icon": "salesforce/salesforce-square.png",
-      "icon_square": "salesforce/salesforce-square.png",
-      "landing": "none",
-      "bg": "#fcfdff",
-      "text": "#212b3a",
       "description": "Supported an upcoming learning platform.",
       "overview": "<p>Summer of 2018, I completed my first internship! I had the pleasure of joining Salesforce’s Global Enablement — Tech Ops team as a UX Design Intern.</p><p>Tech Ops built internal technology that helped streamline workplace operations and was working on an online learning platform when I came on board. I supported this project by leading usability testing sessions and utilizing my insights to assist in a UI redesign. I also created brand collateral for this product and provided additional visual communication needs.</p>",
       "details": [
@@ -484,12 +470,9 @@
       ]
     },
     {
-      "title": "A.S. Graphic Studio—New Website",
+      "title": "A.S. Graphic Studio _ Redesign",
       "year": "18",
-      "hide": true,
-      "display": "as_graphic_studio_redesign.sketch",
       "sub": "UX Design, Web Design, Web Development",
-      "size": "three-fifths",
       "url": "asgs",
       "isoPath": "asgs",
       "iso": {
@@ -586,27 +569,33 @@
           "title": "Final Design",
           "image": true,
           "link": "http://asgraphicstudio.ucsd.edu/",
-          "captionBefore": "<p>The finishing touch to my final design was a large hero image on the landing page. A signature characteristic of our studio was our floor-to-ceiling glass doors, which were always covered by a seasonal in-house illustration. As our door illustrations updated, so would the hero image on our landing page. This added more personality to our site and allowed us to showcase the art of our talented designers. <a href='https://asgraphicstudio.ucsd.edu/' target='_blank'>Visit A.S. Graphic Studio</a>!</p>",
+          "captionBefore": "<p>The finishing touch to my final design was a large hero image on the landing page. A signature characteristic of our studio was our floor-to-ceiling glass doors, which were always covered by a seasonal illustration. As our door illustrations updated, so would the hero image on our landing page. This added more personality to our site, allowed us to showcase the art of our talented designers, and helped us bridge the gap between our online and real life presences. <a href='https://asgraphicstudio.ucsd.edu/' target='_blank'>Visit A.S. Graphic Studio</a>!</p>",
           "content": "asgs/final.png",
           "alt": "Final mock ups"
         }
       ]
     },
-    
     {
-      "title": "ERGO",
-      "hide": true,
-      "display": "ERGO.sketch",
-      "size": "two-fifths",
+      "title": "ERGO _ Ergonomics app concept",
+      "year": "18",
       "sub": "Interaction Design, Visual Design, Web Development",
       "url": "ergo",
-      "icon": "ergo/icon-tall.gif",
-      "icon_square": "ergo/icon_square.gif",
-      "landing": "ergo/landing.gif",
-      "text": "#fff",
-      "bg": "#5db7a8",
-      "col": 2,
-      "description": "An ergonomics app concept.",
+      "isoPath": "ergo",
+      "iso": {
+        "iso1": {
+          "end": 2,
+          "start": 0
+        },
+        "iso2": {
+          "end": 0,
+          "start": 0
+        },
+        "iso3": {
+          "end": -2,
+          "start": -1
+        }
+      },
+      "description": "ERGO is a web app that combats the discomfort and injury that results from a sedentary lifestyle by periodically alerting users to stretch. Designed to work across many different spaces, ERGO is unique in that it introduces exercises that use the everyday objects around us, inspiring users to rethink their interactions with their spatial environments.",
       "overview": "<p><i>Our work environments can work against us</i>. ERGO is a web app that combats the discomfort and injury that results from a sedentary lifestyle by periodically alerting users to stretch. Designed to work across many different spaces, ERGO is unique in that it introduces exercises that use the everyday objects around us, inspiring users to rethink their interactions with their spatial environments.</p>",
       "button": {
         "title": "View Prototype",
@@ -628,10 +617,6 @@
           "content": "Lauren Choy, Lindy Hernandez"
         },
         {
-          "title": "Date",
-          "content": "Jan – Mar 2018"
-        },
-        {
           "title": "Resources",
           "content": "<a href=\"https://github.com/emilynguyen/ergo\" target=\"_blank\">Github repo</a>"
         }
@@ -642,7 +627,6 @@
           "text": true,
           "content": "<p>When the spaces we regularly navigate become a part of our routines, we fail to recognize how we interact with them. Our team's goal was to reassess the interactions between users and their environments to discover how these interactions could be used to fulfill unmet user needs. In particular, we were interested in human behavior within work settings and how the use of computers could contribute to successes and breakdowns.</p>"
         },
-
         {
           "title": "Needfinding",
           "image": true,
@@ -870,7 +854,6 @@
           "title": "Tools + Skills",
           "content": "HTML, CSS, Sass, Jekyll"
         },
-
         {
           "title": "Resources",
           "content": "<a href=\"https://github.com/ucsddesignco/stride\" target=\"_blank\">Github repo</a>"
@@ -914,7 +897,6 @@
       "col": 2,
       "landing": "none",
       "description": "A collection of personal work, illustrations, explorations, and other.",
-
       "butto": {
         "title": "View on Instagram",
         "link": "https://www.instagram.com/emilynguyen.co/"
@@ -941,7 +923,6 @@
               "half": true,
               "alt": "Animal Crossing Fruit Guide"
             },
-
             {
               "image": "misc/ty_serif.png",
               "col2": true,

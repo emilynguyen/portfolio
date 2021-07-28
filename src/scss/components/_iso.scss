@@ -1,8 +1,5 @@
 header {
   .iso-container {
-    // width: 100%;
-
-    //  padding-bottom: 100%;
     width: 50%;
     padding-bottom: 50%;
     width: 33%;
@@ -14,8 +11,6 @@ header {
     // - half of spacer-1 + .5rem bc of h5
     // margin-top: calc(#{-$spacer-1} / 2 - 0.5rem);
     margin-left: auto;
-    //  width: 300px;
-    //  height: 300px;
     width: 13rem;
     height: 13rem;
     @include grid-media-query(portable) {
@@ -28,14 +23,8 @@ header {
   }
 }
 
-$distance1: 33%;
-$distance2: 66%;
-
-$distance1: 10%;
-$distance2: 20%;
-
 // distance2 must be double distance1
-$distance1: 12%;
+$distance1: 13%;
 $distance2: $distance1 * 2;
 
 .project-container,
@@ -45,6 +34,7 @@ $distance2: $distance1 * 2;
       &0 {
         transform: translateY(0);
       }
+      /*
       &1 {
         transform: translateY(-$spacer-1);
       }
@@ -56,7 +46,7 @@ $distance2: $distance1 * 2;
       }
       &-2 {
         transform: translateY($spacer-2);
-      }
+      } */
       // khkjhkj
       &1 {
         transform: translateY(-$distance1);
