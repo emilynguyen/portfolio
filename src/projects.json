@@ -2,11 +2,11 @@
   "projects": [
     {
       "title": "MongoDB",
-      "hide": true,
+      "hide": false,
       "year": "20–",
       "sub": "Visual Design, Brand Design",
       "url": "mongodb",
-      "description": "Currently making data and clusters look beautiful at <a href='https://mongodb.com/' target='_blank'>MongoDB</a>. ✿&#xFE0E;",
+      "description": "Currently making data and clusters look beautiful at <a href='https://mongodb.com/' target='_blank'>MongoDB</a>.<br><br>Embedded on our Brand Design team, I collaborate with stakeholders across marketing, product, engineering, and more to solve design needs across all mediums.",
       "isoPath": "mongodb",
       "iso": {
         "iso1": {
@@ -36,16 +36,49 @@
               "full": true,
               "alt": "Twitch transition animation"
             },
+           
+            {
+              "image": "mongodb/roma-capitale.png",
+              "half": true,
+              "col1": true,
+              "alt": "Roma Capitale customer story illustration"
+            },
+            {
+              "image": "mongodb/charts.png",
+              "half": true,
+              "col2": true,
+              "alt": "Hitting the Data Viz slopes ad"
+            },
+           
+            {
+              "image": "mongodb/champions.png",
+              "full": true,
+              "alt": "MongoDB Champions — sub-branding and brand guidelines"
+            },
+            {
+              "image": "mongodb/women-in-eng-panel.png",
+              "half": true,
+              "col1": true,
+              "alt": "Women in Engineering Panel"
+            },
+            {
+              "image": "mongodb/camp-ldp.png",
+              "half": true,
+              "col2": true,
+              "alt": "Learning and Development stickers"
+            },
+            {
+              "image": "mongodb/welcome-box.jpeg",
+              "full": true,
+              "alt": "Welcome box"
+            },
             {
               "image": "mongodb/IG-Highlight-Covers.png",
               "full": true,
               "alt": "IG highlight covers"
             },
-            {
-              "image": "mongodb/SQL-to-MongoDB-IG.png",
-              "full": true,
-              "alt": "IG swipe through"
-            },
+           
+    
             {
               "image": "mongodb/innovationawardlight.png",
               "half": true,
@@ -59,21 +92,27 @@
               "alt": "Innovation Awards logo — dark bg"
             },
             {
+              "image": "mongodb/jeep.png",
+              "half": true,
+              "col1": true,
+              "alt": "Illustration library — jeep"
+            },
+            {
+              "image": "mongodb/terrarium.png",
+              "half": true,
+              "col2": true,
+              "alt": "Illustration library — terrarium"
+            },
+            {
+              "image": "mongodb/SQL-to-MongoDB-IG.png",
+              "full": true,
+              "alt": "IG swipe through"
+            },
+           
+            {
               "image": "mongodb/zoom.png",
               "full": true,
               "alt": "Zoom office background"
-            },
-            {
-              "image": "mongodb/Banks&Finance2048x1362.png",
-              "half": true,
-              "col1": true,
-              "alt": "Banks & Finance illustration"
-            },
-            {
-              "image": "mongodb/twitchthumbnail.png",
-              "half": true,
-              "col1": true,
-              "alt": "Twitch thumbnail"
             }
           ]
         }
@@ -391,7 +430,7 @@
     {
       "title": "Sun God Festival",
       "year": 19,
-      "hide": false,
+      "hide": true,
       "display": "Sun_God_Festival_2019.html",
       "size": "three-fifths",
       "sub": "Web Development",
@@ -471,6 +510,7 @@
     },
     {
       "title": "A.S. Graphic Studio _ Redesign",
+      "hide": true,
       "year": "18",
       "sub": "UX Design, Web Design, Web Development",
       "url": "asgs",
@@ -577,6 +617,7 @@
     },
     {
       "title": "ERGO _ Ergonomics app concept",
+      "hide": true,
       "year": "18",
       "sub": "Interaction Design, Visual Design, Web Development",
       "url": "ergo",
