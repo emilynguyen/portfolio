@@ -6,7 +6,7 @@
       "year": "20–",
       "sub": "Visual Design, Brand Design",
       "url": "mongodb",
-      "description": "Currently making data and clusters look beautiful at <a href='https://mongodb.com/' target='_blank'>MongoDB</a>.<br><br>Embedded on our Brand Design team, I collaborate with stakeholders across the entire company to solve design needs across all mediums.",
+      "description": "Embedded on the Brand Design team, I collaborate with stakeholders across marketing, product, engineering, and more to solve design needs across all mediums.<br><br>After collaborating with Huge on a brand refresh that rolled out late 2021, our team shifted focus to streamlining our workflow and scaling production. My contributions include owning the development of various template and asset libraries. Please contact me for more work samples.",
       "isoPath": "mongodb",
       "iso": {
         "iso1": {
@@ -27,6 +27,20 @@
         "link": "https://dribbble.com/MongoDB"
       },
       "blocks": [
+        {
+          "title": "2021–",
+          "text": true,
+          "content": ""
+        },
+        {
+          "image": true,
+          "content": "mongodb/ad-library.gif",
+          "alt": "Ad template library on Figma"        },
+        {
+          "title": "2020–2021",
+          "text": true,
+          "content": ""
+        },
         {
           "gallery": true,
           "block": true,
@@ -68,17 +82,10 @@
               "alt": "Learning and Development stickers"
             },
             {
-              "image": "mongodb/welcome-box.jpeg",
-              "full": true,
-              "alt": "Welcome box"
-            },
-            {
               "image": "mongodb/IG-Highlight-Covers.png",
               "full": true,
               "alt": "IG highlight covers"
             },
-           
-    
             {
               "image": "mongodb/innovationawardlight.png",
               "half": true,
@@ -104,6 +111,30 @@
               "alt": "Illustration library — terrarium"
             },
             {
+              "image": "mongodb/pi.png",
+              "half": true,
+              "col1": true,
+              "alt": "Raspberry pi illustrations"
+            },
+            {
+              "image": "mongodb/atlas-search.jpeg",
+              "half": true,
+              "col2": true,
+              "alt": "Atlas Search hero image"
+            },
+            {
+              "image": "mongodb/gardening.jpeg",
+              "half": true,
+              "col1": true,
+              "alt": "Gardening themed spot illustrations"
+            },
+            {
+              "image": "mongodb/ramen.png",
+              "half": true,
+              "col2": true,
+              "alt": "Illustration library — ramen"
+            },
+            {
               "image": "mongodb/SQL-to-MongoDB-IG.png",
               "full": true,
               "alt": "IG swipe through"
@@ -119,11 +150,26 @@
       ]
     },
     {
-      "title": "Triton Outfitters — New Website",
-      "hide": true,
+      "title": "Triton Outfitters _ New Website",
+      "hide": false,
       "year": 20,
       "sub": "Web Design, Web Development",
       "url": "to",
+      "isoPath": "to",
+      "iso": {
+        "iso1": {
+          "start": 0,
+          "end": 0
+        },
+        "iso2": {
+          "start": 0,
+          "end": 1
+        },
+        "iso3": {
+          "start": -1,
+          "end": -2
+        }
+      },
       "description": "Designed and developed a custom Shopify theme for the clothing brand <a href='https://www.facebook.com/tritonoutfitters' target='_blank'>Triton Outfitters</a>.",
       "details": [
         {
@@ -428,12 +474,12 @@
       ]
     },
     {
-      "title": "Sun God Festival",
+      "title": "Sun God Music Festival",
       "year": 19,
-      "hide": true,
+      "hide": false,
       "display": "Sun_God_Festival_2019.html",
       "size": "three-fifths",
-      "sub": "Web Development",
+      "sub": "Web Development, Web Design",
       "url": "sgf",
       "isoPath": "sgf",
       "iso": {
