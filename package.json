@@ -1,6 +1,9 @@
 {
   "name": "portfolio",
   "version": "2.0.0",
+  "engines": {
+    "node": "12.16.1"
+  },
   "description": "Emily Nguyen's design + dev portfolio",
   "main": "index.js",
   "scripts": {
