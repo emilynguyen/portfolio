@@ -1378,11 +1378,11 @@ table {
 
 html,
 body {
-  position: relative; }
+  position: relative;
+  overflow-x: hidden; }
 
 html {
   cursor: url("../images/_cursors/default.png"), default;
-  overflow-x: hidden;
   height: 100%; }
 
 
