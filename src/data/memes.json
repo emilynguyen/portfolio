@@ -6,7 +6,8 @@
     },
     {
       "title": "also-me.jpg",
-      "src": "cat.jpg"
+      "src": "cat.jpg",
+      "hide": true
     },
     {
       "title": "fmdmsds.jpg",
@@ -18,11 +19,20 @@
     },
     {
       "title": "mdjfkgha.jpg",
-      "src": "brain-cells.jpg"
+      "src": "clowning.jpeg"
+    },
+    {
+      "title": "haku.jpg",
+      "src": "haku.jpg"
     },
     {
       "title": "fkjlsdjs.jpg",
-      "src": "iron-man.jpg"
+      "src": "iron-man.jpg",
+      "hide": true
+    },
+    {
+      "title":"bo-luc-lac.jpg",
+      "src": "bo-luc-lac.jpg"
     },
     {
       "title": "kdfjklafd.jpg",
