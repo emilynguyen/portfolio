@@ -6,7 +6,7 @@
       "year": "20–",
       "sub": "Visual Design, Brand Design",
       "url": "mongodb",
-      "description": "Embedded on the Brand Design team, I collaborate with stakeholders across marketing, product, engineering, and more to solve design needs across all mediums.<br><br>After collaborating with Huge on a brand refresh that rolled out late 2021, our team shifted focus to streamlining our workflow and scaling production. My contributions include owning the development of various template and asset libraries. Please contact me for more work samples.",
+      "description": "Embedded on the Brand Design team, I collaborate with stakeholders across marketing, product, engineering, and more to solve design needs across all mediums.<br><br>After collaborating with Huge on a brand refresh that rolled out late 2021, our team shifted focus to streamlining our workflow and scaling production. My contributions include owning the development of several template and asset libraries. Please contact me for more work samples.",
       "isoPath": "mongodb",
       "iso": {
         "iso1": {
@@ -18,8 +18,8 @@
           "start": 0
         },
         "iso3": {
-          "end": -2,
-          "start": -1
+          "end": -1,
+          "start": 0
         }
       },
       "button": {
@@ -159,15 +159,15 @@
       "iso": {
         "iso1": {
           "start": 0,
-          "end": 0
+          "end": 2
         },
         "iso2": {
           "start": 0,
           "end": 1
         },
         "iso3": {
-          "start": -1,
-          "end": -2
+          "start": 0,
+          "end": -1
         }
       },
       "description": "Designed and developed a custom Shopify theme for the clothing brand <a href='https://www.facebook.com/tritonoutfitters' target='_blank'>Triton Outfitters</a>.",
@@ -224,7 +224,7 @@
           "start": 0
         },
         "iso2": {
-          "end": 0,
+          "end": 1,
           "start": 0
         },
         "iso3": {
@@ -309,7 +309,7 @@
       "isoPath": "design-co",
       "iso": {
         "iso1": {
-          "end": 2,
+          "end": 1,
           "start": 0
         },
         "iso2": {
@@ -317,8 +317,8 @@
           "start": 0
         },
         "iso3": {
-          "end": -2,
-          "start": -1
+          "end": -1,
+          "start": 0
         }
       },
       "description": "<p>From 2017 to 2019 I helped lead <a href='http://www.ucsddesign.co/' target='_blank'>Design Co</a>, the largest pre-professional design organization at UC San Diego. This involved leading skill workshops, planning events, and more to help bridge the gap between student designers and industry.</p><p>We've recently launched a full rebrand, where I worked closely alongside <a href='https://trinh.design/' target='_blank'>Trinh</a> and <a href='http://lucylouxu.com' target='_blank'>Lucy</a> to craft a new visual identity for the organization.</p><p>Thank you to the lovely <a href='http://www.ucsddesign.co/about' target='_blank'>Design Co leadership team</a> for everything that they do. ♥</p>",
@@ -484,12 +484,12 @@
       "isoPath": "sgf",
       "iso": {
         "iso1": {
-          "start": 1,
-          "end": 2
-        },
-        "iso2": {
           "start": 0,
           "end": 0
+        },
+        "iso2": {
+          "start": 1,
+          "end": 2
         },
         "iso3": {
           "start": -1,
@@ -555,7 +555,7 @@
       ]
     },
     {
-      "title": "A.S. Graphic Studio _ Redesign",
+      "title": "A.S. Graphic Studio _ New Website",
       "hide": true,
       "year": "18",
       "sub": "UX Design, Web Design, Web Development",
@@ -970,15 +970,15 @@
       "iso": {
         "iso1": {
           "start": 0,
-          "end": 2
+          "end": 1
         },
         "iso2": {
           "start": 0,
           "end": 0
         },
         "iso3": {
-          "start": -1,
-          "end": -2
+          "start": 0,
+          "end": -1
         }
       },
       "col": 2,
