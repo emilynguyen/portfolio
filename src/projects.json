@@ -28,126 +28,13 @@
       },
       "blocks": [
         {
-          "title": "2021–",
-          "text": true,
-          "content": ""
-        },
-        {
           "image": true,
           "content": "mongodb/ad-library.gif",
-          "alt": "Ad template library on Figma"        },
-        {
-          "title": "2020–2021",
-          "text": true,
-          "content": ""
-        },
-        {
-          "gallery": true,
-          "block": true,
-          "content": [
-            {
-              "image": "mongodb/twitch.gif",
-              "full": true,
-              "alt": "Twitch transition animation"
-            },
-           
-            {
-              "image": "mongodb/roma-capitale.png",
-              "half": true,
-              "col1": true,
-              "alt": "Roma Capitale customer story illustration"
-            },
-            {
-              "image": "mongodb/charts.png",
-              "half": true,
-              "col2": true,
-              "alt": "Hitting the Data Viz slopes ad"
-            },
-           
-            {
-              "image": "mongodb/champions.png",
-              "full": true,
-              "alt": "MongoDB Champions — sub-branding and brand guidelines"
-            },
-            {
-              "image": "mongodb/women-in-eng-panel.png",
-              "half": true,
-              "col1": true,
-              "alt": "Women in Engineering Panel"
-            },
-            {
-              "image": "mongodb/camp-ldp.png",
-              "half": true,
-              "col2": true,
-              "alt": "Learning and Development stickers"
-            },
-            {
-              "image": "mongodb/IG-Highlight-Covers.png",
-              "full": true,
-              "alt": "IG highlight covers"
-            },
-            {
-              "image": "mongodb/innovationawardlight.png",
-              "half": true,
-              "col1": true,
-              "alt": "Innovation Awards logo — light bg"
-            },
-            {
-              "image": "mongodb/innovationawarddark.png",
-              "half": true,
-              "col2": true,
-              "alt": "Innovation Awards logo — dark bg"
-            },
-            {
-              "image": "mongodb/jeep.png",
-              "half": true,
-              "col1": true,
-              "alt": "Illustration library — jeep"
-            },
-            {
-              "image": "mongodb/terrarium.png",
-              "half": true,
-              "col2": true,
-              "alt": "Illustration library — terrarium"
-            },
-            {
-              "image": "mongodb/pi.png",
-              "half": true,
-              "col1": true,
-              "alt": "Raspberry pi illustrations"
-            },
-            {
-              "image": "mongodb/atlas-search.jpeg",
-              "half": true,
-              "col2": true,
-              "alt": "Atlas Search hero image"
-            },
-            {
-              "image": "mongodb/gardening.jpeg",
-              "half": true,
-              "col1": true,
-              "alt": "Gardening themed spot illustrations"
-            },
-            {
-              "image": "mongodb/ramen.png",
-              "half": true,
-              "col2": true,
-              "alt": "Illustration library — ramen"
-            },
-            {
-              "image": "mongodb/SQL-to-MongoDB-IG.png",
-              "full": true,
-              "alt": "IG swipe through"
-            },
-           
-            {
-              "image": "mongodb/zoom.png",
-              "full": true,
-              "alt": "Zoom office background"
-            }
+          "alt": "Ad template library on Figma"        }
+       
           ]
-        }
-      ]
+        
+      
     },
     {
       "title": "Triton Outfitters _ New Website",
