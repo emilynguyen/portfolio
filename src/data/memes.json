@@ -9,17 +9,16 @@
       "src": "cat.jpg",
       "hide": true
     },
-    {
-      "title": "fmdmsds.jpg",
-      "src": "avatarmemes.jpg"
-    },
+ 
     {
       "title": "askldf.jpg",
-      "src": "disco.jpg"
+      "src": "disco.jpg",
+      "hide": true
     },
     {
       "title": "mdjfkgha.jpg",
-      "src": "clowning.jpeg"
+      "src": "clowning.jpeg",
+      "hide": true
     },
     {
       "title": "haku.jpg",
@@ -31,17 +30,19 @@
       "hide": true
     },
     {
-      "title":"bo-luc-lac.jpg",
-      "src": "bo-luc-lac.jpg"
+      "title":"self-care.jpg",
+      "src": "steak.png"
     },
     {
-      "title": "kdfjklafd.jpg",
-      "src": "hehe.jpg"
+      "title": "rei-and-phoebe.jpg",
+      "src": "cats.png"
     },
     {
       "title": "asjkldfj.jpg",
-      "src": "reality.jpg",
-      "hide": true
-    }
+      "src": "spam-musubi.png"    },
+      {
+        "title": "fmdmsds.jpg",
+        "src": "spotify-wrapped.png"
+      }
   ]
 }

@@ -6,7 +6,7 @@
       "year": "20–22",
       "sub": "Visual Design, Brand Design",
       "url": "mongodb",
-      "description": "Embedded on the Brand Team, where I collaborated with stakeholders across the company to solve design needs across all mediums.<br><br>After collaborating with Huge on a brand refresh that rolled out late 2021, our team shifted focus to streamlining our workflow and scaling production. My contributions included owning several brand and template libraries.",
+      "description": "Embedded on the Brand Team, where I collaborated with stakeholders across the company to solve design needs across all mediums.<br><br>After collaborating with Huge on a brand refresh that rolled out late 2021, our team shifted focus to streamlining our workflow and scaling production. My contributions included developing and owning several design systems and libraries.",
       "isoPath": "mongodb",
       "iso": {
         "iso1": {
@@ -21,10 +21,6 @@
           "end": -1,
           "start": 0
         }
-      },
-      "button": {
-        "title": "View our Dribbble",
-        "link": "https://dribbble.com/MongoDB"
       },
       "blocks": [
         {

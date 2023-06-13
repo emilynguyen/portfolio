@@ -27,7 +27,8 @@
     },
     {
       "title": "Design Co",
-      "url": "/design-co",
+      "url": "https://ucsddesign.co/",
+      "newWindow": true,
       "img": "design-co/preview.gif"
     },
     {
@@ -36,12 +37,6 @@
       "url": "http://frontiers.ucsddesign.co/sp19",
       "newWindow": true,
       "img": "frontiers/preview.jpg"
-    },
-    {
-      "title": "Horizon",
-      "url": "http://beyondthehorizon.ucsd.edu/",
-      "newWindow": true,
-      "img": "horizon/preview.jpg"
     }
   ]
 }
