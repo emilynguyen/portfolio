@@ -26,11 +26,24 @@
         {
           "image": true,
           "content": "mongodb/ad-library.gif",
-          "alt": "Ad template library on Figma"        }
-       
+          "alt": "Ad template library on Figma"        },
+          {
+            "gallery": true,
+            "block": true,
+            "content": [
+              {
+                "image": "mongodb/camp-ldp.jpg",
+                "half": true,
+                "alt": "Camp Leadership and Development swag"
+              },
+              {
+                "image": "mongodb/search.png",
+                "half": true,
+                "alt": "Atlas Search illustration"
+              }
+            ]
+          }
           ]
-        
-      
     },
     {
       "title": "Triton Outfitters _ New Website",
