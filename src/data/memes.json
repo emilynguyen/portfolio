@@ -9,7 +9,7 @@
       "src": "cat.jpg",
       "hide": true
     },
- 
+
     {
       "title": "askldf.jpg",
       "src": "disco.jpg",
@@ -30,7 +30,7 @@
       "hide": true
     },
     {
-      "title":"self-care.jpg",
+      "title": "self-care.jpg",
       "src": "steak.png"
     },
     {
@@ -39,14 +39,16 @@
     },
     {
       "title": "asjkldfj.jpg",
-      "src": "spam-musubi.png"    },
-      {
-        "title": "fmdmsds.jpg",
-        "src": "spotify-wrapped.png"
-      },
-      {
-        "title": "jflgjlejde.jpg",
-        "src": "hehe.jpg"
-      }
+      "src": "spam-musubi.png"
+    },
+    {
+      "title": "fmdmsds.jpg",
+      "src": "spotify-wrapped.png",
+      "hide": true
+    },
+    {
+      "title": "jflgjlejde.jpg",
+      "src": "hehe.jpg"
+    }
   ]
 }

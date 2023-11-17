@@ -1,6 +1,67 @@
 {
   "projects": [
     {
+      "title": "Webflow",
+      "hide": true,
+      "year": "22—",
+      "sub": "Brand Design",
+      "url": "to",
+      "isoPath": "to",
+      "iso": {
+        "iso1": {
+          "start": 0,
+          "end": 2
+        },
+        "iso2": {
+          "start": 0,
+          "end": 1
+        },
+        "iso3": {
+          "start": 0,
+          "end": -1
+        }
+      },
+      "description": "Designed and developed a custom Shopify theme for the clothing brand <a href='https://www.facebook.com/tritonoutfitters' target='_blank'>Triton Outfitters</a>.",
+      "details": [
+        {
+          "title": "Resources",
+          "content": "<a href='https://github.com/emilynguyen/to' target='_blank'>Github repo</a>"
+        }
+      ],
+      "button": {
+        "title": "Visit Site",
+        "link": "https://to.ucsd.edu"
+      },
+      "blocks": [
+        {
+          "gallery": true,
+          "block": true,
+          "content": [
+            {
+              "image": "to/landing.jpg",
+              "full": true,
+              "alt": "Landing"
+            },
+            {
+              "image": "to/shop-by-collection.jpg",
+              "full": true,
+              "alt": "Shop By Collection"
+            },
+            {
+              "image": "to/collection.jpg",
+              "full": true,
+              "alt": "Collection"
+            },
+            {
+              "image": "to/product.jpg",
+              "full": true,
+              "alt": "Product"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "MongoDB",
       "hide": false,
       "year": "20–22",
@@ -26,24 +87,25 @@
         {
           "image": true,
           "content": "mongodb/ad-library.gif",
-          "alt": "Ad template library on Figma"        },
-          {
-            "gallery": true,
-            "block": true,
-            "content": [
-              {
-                "image": "mongodb/camp-ldp.jpg",
-                "half": true,
-                "alt": "Camp Leadership and Development swag"
-              },
-              {
-                "image": "mongodb/search.png",
-                "half": true,
-                "alt": "Atlas Search illustration"
-              }
-            ]
-          }
+          "alt": "Ad template library on Figma"
+        },
+        {
+          "gallery": true,
+          "block": true,
+          "content": [
+            {
+              "image": "mongodb/camp-ldp.jpg",
+              "half": true,
+              "alt": "Camp Leadership and Development swag"
+            },
+            {
+              "image": "mongodb/search.png",
+              "half": true,
+              "alt": "Atlas Search illustration"
+            }
           ]
+        }
+      ]
     },
     {
       "title": "Triton Outfitters _ New Website",
@@ -110,7 +172,7 @@
       "title": "Vox Media _ Podcast Art Design System",
       "year": 19,
       "display": "Podcast_Art_Design_System.txt",
-      "sub": "Brand Design, Design Systems",
+      "sub": "Brand Design",
       "size": "two-fifths",
       "url": "vox",
       "isoPath": "vox",
@@ -200,7 +262,7 @@
     {
       "title": "Design Co _ Growing a Design Community at UCSD",
       "year": "17–19",
-      "sub": "Brand Design, Web Design, Web Development, Leadership",
+      "sub": "Brand Design, Web Design, Web Development",
       "url": "design-co",
       "isoPath": "design-co",
       "iso": {
@@ -370,7 +432,7 @@
       ]
     },
     {
-      "title": "Sun God Music Festival",
+      "title": "Sun God Music Festival _ Website",
       "year": 19,
       "hide": false,
       "display": "Sun_God_Festival_2019.html",
@@ -860,7 +922,7 @@
       "year": "—",
       "sub": "????",
       "size": "two-thirds",
-      "url": "http://emilynguyen.dribbble.com/",
+      "url": "https://dribbble.com/emilynguyen",
       "external": true,
       "isoPath": "misc",
       "iso": {
