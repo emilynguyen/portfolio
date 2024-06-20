@@ -27,7 +27,7 @@
         {
           "title": "Year in Review 2022",
           "text": true,
-          "content": "<p>Web design in collaboration with Richelle Rolli (design lead) and Gabi Robins (design and build). <a href='https://webflow.com/year-in-review/2022' target='_blank'>Visit Site</a></p>"
+          "content": "<p>Web design in collaboration with Richelle Rolli (design lead) and Gabi Robins (design and build). <a href='https://webflow.com/year-in-review/2022' target='_blank'>Visit site</a></p>"
         },
         {
           "gallery": true,
@@ -70,6 +70,17 @@
           "block": true,
           "content": "webflow/state-of-the-website.png",
           "alt": "data visualizations"
+        },
+        {
+          "title": "Boundless Webinar Series",
+          "text": true,
+          "content": "<p>Landing page design and build in collaboration with Corey Moen (build support). <a href='https://webflow.com/resources/series/boundless' target='_blank'>Visit site</a></p>"
+        },
+        {
+          "image": true,
+          "block": true,
+          "content": "webflow/boundless.jpg",
+          "alt": "Boundless Webinar Series landing page"
         }
       ]
     },
@@ -158,7 +169,7 @@
         }
       ],
       "button": {
-        "title": "Visit Site",
+        "title": "Visit site",
         "link": "https://to.ucsd.edu"
       },
       "blocks": [
@@ -299,7 +310,7 @@
       },
       "description": "<p>From 2017 to 2019 I helped lead <a href='http://www.ucsddesign.co/' target='_blank'>Design Co</a>, the largest pre-professional design organization at UC San Diego. This involved leading skill workshops, planning events, and more to help bridge the gap between student designers and industry.</p><p>We've recently launched a full rebrand, where I worked closely alongside <a href='https://trinh.design/' target='_blank'>Trinh</a> and <a href='http://lucylouxu.com' target='_blank'>Lucy</a> to craft a new visual identity for the organization.</p><p>Thank you to the lovely <a href='http://www.ucsddesign.co/about' target='_blank'>Design Co leadership team</a> for everything that they do. ♥</p>",
       "button": {
-        "title": "Read More",
+        "title": "Read more",
         "link": "https://medium.com/ucsddesignco/meet-design-co-8f250a78f4d9"
       },
       "details": [
@@ -474,7 +485,7 @@
       },
       "description": "Website for the 37th annual Sun God Music Festival.",
       "button": {
-        "title": "Visit Site",
+        "title": "Visit site",
         "link": "http://sgf.ucsd.edu/2019"
       },
       "details": [
@@ -553,7 +564,7 @@
       },
       "description": "<p>One of my first projects as Associated Students Graphic Studio’s new web designer + developer was to redesign and rebuild our 9-year-old website. While maintaining our established brand, I gave the site a visual refresh that also improved usability and information architecture.</p>",
       "button": {
-        "title": "Visit Site",
+        "title": "Visit site",
         "link": "https://asgraphicstudio.ucsd.edu/"
       },
       "details": [
@@ -661,7 +672,7 @@
       "description": "ERGO is a web app that combats the discomfort and injury that results from a sedentary lifestyle by periodically alerting users to stretch. Designed to work across many different spaces, ERGO is unique in that it introduces exercises that use the everyday objects around us, inspiring users to rethink their interactions with their spatial environments.",
       "overview": "<p><i>Our work environments can work against us</i>. ERGO is a web app that combats the discomfort and injury that results from a sedentary lifestyle by periodically alerting users to stretch. Designed to work across many different spaces, ERGO is unique in that it introduces exercises that use the everyday objects around us, inspiring users to rethink their interactions with their spatial environments.</p>",
       "button": {
-        "title": "View Prototype",
+        "title": "View prototype",
         "link": "http://ergo-webapp.herokuapp.com/"
       },
       "details": [
@@ -897,7 +908,7 @@
       "col": "2",
       "overview": "<p>As part of <a href=\"http://ucsddesign.co\" target=\"_blank\">Design Co</a>’s leadership board, I worked alongside my cross-functional team to put together UC San Diego’s first design-centric career fair. Stride follows a unique career fair format that allows design students to better showcase their work and portfolios.</p><p>In collaboration with our creative director, I developed the event website. I also assisted our graphic studio in creating visual collateral.</p>",
       "button": {
-        "title": "Visit Site",
+        "title": "Visit site",
         "link": "https://stride.ucsddesign.co/2019"
       },
       "details": [
