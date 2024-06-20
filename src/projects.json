@@ -2,15 +2,15 @@
   "projects": [
     {
       "title": "Webflow",
-      "hide": true,
+      "hide": false,
       "year": "22—",
-      "sub": "Brand Design",
-      "url": "to",
-      "isoPath": "to",
+      "sub": "Brand design, web design, Webflow development",
+      "url": "webflow",
+      "isoPath": "webflow",
       "iso": {
         "iso1": {
           "start": 0,
-          "end": 2
+          "end": 0
         },
         "iso2": {
           "start": 0,
@@ -21,43 +21,55 @@
           "end": -1
         }
       },
-      "description": "Designed and developed a custom Shopify theme for the clothing brand <a href='https://www.facebook.com/tritonoutfitters' target='_blank'>Triton Outfitters</a>.",
-      "details": [
-        {
-          "title": "Resources",
-          "content": "<a href='https://github.com/emilynguyen/to' target='_blank'>Github repo</a>"
-        }
-      ],
-      "button": {
-        "title": "Visit Site",
-        "link": "https://to.ucsd.edu"
-      },
+      "description": "Digital, print, and web design + Webflow development to support marketing initiatives.",
+
       "blocks": [
+        {
+          "title": "Year in Review 2022",
+          "text": true,
+          "content": "<p>Web design in collaboration with Richelle Rolli (design lead) and Gabi Robins (design and build). <a href='https://webflow.com/year-in-review/2022' target='_blank'>Visit Site</a></p>"
+        },
         {
           "gallery": true,
           "block": true,
           "content": [
             {
-              "image": "to/landing.jpg",
+              "image": "webflow/yir_1.jpeg",
               "full": true,
-              "alt": "Landing"
+              "alt": "Year in Review website"
             },
             {
-              "image": "to/shop-by-collection.jpg",
+              "image": "webflow/yir_2.jpeg",
               "full": true,
-              "alt": "Shop By Collection"
+              "alt": "Year in Review website"
             },
             {
-              "image": "to/collection.jpg",
+              "image": "webflow/yir_3.jpeg",
               "full": true,
-              "alt": "Collection"
+              "alt": "Year in Review website"
             },
             {
-              "image": "to/product.jpg",
+              "image": "webflow/yir_4.jpeg",
               "full": true,
-              "alt": "Product"
+              "alt": "Year in Review website"
+            },
+            {
+              "image": "webflow/yir_5.jpeg",
+              "full": true,
+              "alt": "Year in Review website"
             }
           ]
+        },
+        {
+          "title": "The 2024 State of the Website",
+          "text": true,
+          "content": "<p>Data visualizations for a report detailing challenges and opportunities for marketing leaders. <a href='https://webflow.com/resources/access/2024-state-of-the-website' target='_blank'>Read the report</a></p>"
+        },
+        {
+          "image": true,
+          "block": true,
+          "content": "webflow/state-of-the-website.png",
+          "alt": "data visualizations"
         }
       ]
     },
@@ -65,9 +77,9 @@
       "title": "MongoDB",
       "hide": false,
       "year": "20–22",
-      "sub": "Brand Design",
+      "sub": "Brand design, illustration",
       "url": "mongodb",
-      "description": "Embedded on the Brand Team, where I collaborated with stakeholders across the company to solve design needs across all mediums.<br><br>After collaborating with Huge on a brand refresh that rolled out late 2021, our team shifted focus to streamlining our workflow and scaling production. My contributions included developing and owning several design systems and libraries.",
+      "description": "Embedded on the Brand Team, where I collaborated cross-functionally to provide design support for product, web, and marketing.<br><br>After working with Huge on a brand refresh that rolled out late 2021, our team shifted focus to streamlining our workflow and scaling production. My contributions included developing and owning several design systems and libraries.",
       "isoPath": "mongodb",
       "iso": {
         "iso1": {
@@ -94,6 +106,11 @@
           "block": true,
           "content": [
             {
+              "image": "mongodb/dev-stickers.png",
+              "half": true,
+              "alt": "Developer joke stickers"
+            },
+            {
               "image": "mongodb/camp-ldp.jpg",
               "half": true,
               "alt": "Camp Leadership and Development swag"
@@ -102,6 +119,11 @@
               "image": "mongodb/search.png",
               "half": true,
               "alt": "Atlas Search illustration"
+            },
+            {
+              "image": "mongodb/pricing.png",
+              "half": true,
+              "alt": "Coin stack illustration"
             }
           ]
         }
@@ -109,9 +131,9 @@
     },
     {
       "title": "Triton Outfitters _ New Website",
-      "hide": false,
+      "hide": true,
       "year": 20,
-      "sub": "Web Design, Web Development",
+      "sub": "Web design, web development",
       "url": "to",
       "isoPath": "to",
       "iso": {
@@ -191,23 +213,18 @@
         }
       },
       "landing": "none",
-      "description": "Design system for Vox Media Podcast Network's artwork.",
+      "description": "Built a design system for Vox Media Podcast Network that established artwork consistency across 8 unique brands, streamlined the process of producing podcast assets, and strengthened brand recognition.",
       "details": [
         {
-          "title": "Team",
-          "content": "Project managers — Laylah Donnell, Krystal Stevens<br>Mentor – Courtney Leonard"
-        },
-        {
-          "title": "Stakeholders",
-          "content": "Vox Media Podcast Network (Zach Kahn, Marika Ball-Damberg)"
+          "title": "Deliverables",
+          "content": "Design system, style guide, and templates for tile art, display ads, and social assets"
         }
       ],
       "blocks": [
         {
           "title": "Overview",
           "text": true,
-          "content": "<p><a href='https://podcasts.voxmedia.com/' target='_blank'>Vox Media Podcast Network</a> is a fast-growing collection of 200+ shows spanning business, technology, news, sports, and dining. Each of these podcasts have custom art crafted by in-house designers. As the network grew, so did the need for a strong design system to consolidate all of this artwork. I joined Vox Media’s Brand Design team as their Brand Design Intern this summer and was given the opportunity to tackle this challenge.</p><p>After several weeks of extensive research, including a competitive analysis and an audit, I finalized a style guide and template system that strengthened brand recognition, established artwork consistency across 8 unique brands, and streamlined the process of producing podcast assets.</p>",
-          "alt": "Before the design system"
+          "content": "<p><a href='https://podcasts.voxmedia.com/' target='_blank'>Vox Media Podcast Network</a> is a fast-growing collection of 200+ shows spanning business, technology, news, sports, and dining. Each of these podcasts have custom art crafted by in-house designers. As the network grew, so did the need for a strong design system to consolidate all of this artwork. I joined Vox Media’s Brand Design team as their Brand Design Intern this summer and was given the opportunity to tackle this challenge.</p><p>After several weeks of extensive research, including a competitive analysis and an audit, I finalized a style guide and template system for their tile art, display ads, and social assets.</p>"
         },
         {
           "title": "Competitive Analysis",
@@ -261,8 +278,9 @@
     },
     {
       "title": "Design Co _ Growing a Design Community at UCSD",
+      "hide": true,
       "year": "17–19",
-      "sub": "Brand Design, Web Design, Web Development",
+      "sub": "Brand design, web design, web development",
       "url": "design-co",
       "isoPath": "design-co",
       "iso": {
@@ -382,7 +400,7 @@
     {
       "title": "Salesforce Design Internship",
       "hide": true,
-      "sub": "UX Design",
+      "sub": "UX design",
       "url": "salesforce",
       "description": "Supported an upcoming learning platform.",
       "overview": "<p>Summer of 2018, I completed my first internship! I had the pleasure of joining Salesforce’s Global Enablement — Tech Ops team as a UX Design Intern.</p><p>Tech Ops built internal technology that helped streamline workplace operations and was working on an online learning platform when I came on board. I supported this project by leading usability testing sessions and utilizing my insights to assist in a UI redesign. I also created brand collateral for this product and provided additional visual communication needs.</p>",
@@ -437,7 +455,7 @@
       "hide": false,
       "display": "Sun_God_Festival_2019.html",
       "size": "three-fifths",
-      "sub": "Web Development, Web Design",
+      "sub": "Web development, web design",
       "url": "sgf",
       "isoPath": "sgf",
       "iso": {
@@ -516,7 +534,7 @@
       "title": "A.S. Graphic Studio _ New Website",
       "hide": true,
       "year": "18",
-      "sub": "UX Design, Web Design, Web Development",
+      "sub": "UX design, web design, web development",
       "url": "asgs",
       "isoPath": "asgs",
       "iso": {
@@ -623,7 +641,7 @@
       "title": "ERGO _ Ergonomics app concept",
       "hide": true,
       "year": "18",
-      "sub": "Interaction Design, Visual Design, Web Development",
+      "sub": "Interaction design, visual design, web development",
       "url": "ergo",
       "isoPath": "ergo",
       "iso": {
@@ -920,7 +938,7 @@
     {
       "title": "Dribbble",
       "year": "—",
-      "sub": "????",
+      "sub": "Misc",
       "size": "two-thirds",
       "url": "https://dribbble.com/emilynguyen",
       "external": true,
