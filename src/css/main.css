@@ -2157,17 +2157,15 @@ header .iso-container {
   #work-page h5 {
     margin-top: 0.5rem; }
 
-.dev-link {
-  overflow: hidden; }
-  .dev-link img {
-    display: none;
-    position: absolute;
-    max-width: 15rem;
-    z-index: 9999;
-    border: 1px solid #161c21;
-    -webkit-box-shadow: #161c21 0.4rem 0.4rem 0rem;
-            box-shadow: #161c21 0.4rem 0.4rem 0rem;
-    margin-left: 4rem; }
+.dev-link img {
+  display: none;
+  position: absolute;
+  max-width: 15rem;
+  z-index: 9999;
+  border: 1px solid #161c21;
+  -webkit-box-shadow: #161c21 0.4rem 0.4rem 0rem;
+          box-shadow: #161c21 0.4rem 0.4rem 0rem;
+  margin-left: 4rem; }
 
 #project-page img,
 #project-page iframe {
@@ -2234,7 +2232,7 @@ header .iso-container {
 
 .popup {
   position: fixed;
-  background-color: #f5f5f5;
+  background-color: #161c21;
   border: 1px solid #161c21;
   z-index: 100;
   -webkit-transition: -webkit-transform 0.3s;
@@ -2244,6 +2242,7 @@ header .iso-container {
   -webkit-box-shadow: #161c21 0.4rem 0.4rem 0rem;
           box-shadow: #161c21 0.4rem 0.4rem 0rem; }
   .popup .bar {
+    background-color: #f5f5f5;
     border-bottom: 1px solid #161c21;
     height: 1.8em;
     text-align: center;

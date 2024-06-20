@@ -24,13 +24,13 @@
   {{/each}}
   <hr>
   {{#with dev}}
-  <h3 class="asterisks mt-2">Dev Work</h3>
+  <h3 class="asterisks mt-3 mb-1">Dev Work</h3>
   <div class="grid mb-3">
     {{#each projects}}
     {{#unless hide}}
-    <div class="grid__item desk--one-third">
-      <h4 class="styled-links dev-link"><a href="{{url}}" {{#if newWindow}}target="_blank" {{/if}}>{{title}}</a>{{#if
-        img}}<img src="/images/{{img}}" alt="">{{/if}}</h4>
+    <div class="grid__item monitor--one-half">
+      <h2 class="styled-links dev-link"><a href="{{url}}" {{#if newWindow}}target="_blank" {{/if}}>{{title}}</a>{{#if
+        img}}<img src="/images/{{img}}" alt="">{{/if}}</h2>
     </div>
     {{/unless}}
     {{/each}}

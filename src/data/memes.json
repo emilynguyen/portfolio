@@ -9,7 +9,10 @@
       "src": "cat.jpg",
       "hide": true
     },
-
+    {
+      "title": "bun-bo-hue.jpg",
+      "src": "bun-bo-hue.jpg"
+    },
     {
       "title": "askldf.jpg",
       "src": "disco.jpg",
@@ -17,8 +20,11 @@
     },
     {
       "title": "mdjfkgha.jpg",
-      "src": "clowning.jpeg",
-      "hide": true
+      "src": "barbed-heart.jpg"
+    },
+    {
+      "title": "rei-and-phoebe.jpg",
+      "src": "cats.png"
     },
     {
       "title": "haku.jpg",
@@ -30,16 +36,8 @@
       "hide": true
     },
     {
-      "title": "self-care.jpg",
-      "src": "steak.png"
-    },
-    {
-      "title": "rei-and-phoebe.jpg",
-      "src": "cats.png"
-    },
-    {
       "title": "asjkldfj.jpg",
-      "src": "spam-musubi.png"
+      "src": "greenies.jpg"
     },
     {
       "title": "fmdmsds.jpg",
