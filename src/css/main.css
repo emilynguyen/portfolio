@@ -1678,7 +1678,6 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6,
 p {
   line-height: 1.2; }
@@ -1686,7 +1685,6 @@ p {
 @media only screen and (max-width: 1023px) {
   h3,
   h4,
-  h5,
   h6,
   p {
     line-height: 1.3; } }
@@ -1724,9 +1722,7 @@ h2 {
   margin-top: -0.1em; }
 
 h3 {
-  font-family: "Mabry Pro", "Helvetica", "Arial", sans-serif; }
-
-h3 {
+  font-family: "Mabry Pro", "Helvetica", "Arial", sans-serif;
   text-transform: uppercase; }
 
 h1,
@@ -1747,7 +1743,9 @@ h4 {
   font-size: 1.4rem; }
 
 h5 {
-  font-size: 0.75rem; }
+  font-family: "Mabry Mono Pro", monospace;
+  font-size: 0.75rem;
+  line-height: 1.3; }
 
 .parentheses:before, #project-page .block h3.title:before {
   content: "("; }

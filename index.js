@@ -136,29 +136,18 @@ app.set("view engine", "handlebars");
 
 app.use(express.static(__dirname + "/src"));
 
-var projects = require("./src/projects.json");
+var projects = require("./src/data/projects.json");
 var dev = require("./src/data/dev.json");
 var memes = require("./src/data/memes.json");
 
-/*
-app.get("/", function (req, res) {
-  res.render("home", {
-    title: "Emily Nguyen",
-    url: "",
-    path: "",
-    description: description,
-    noFooter: true,
-    memes,
-  });
-});
-*/
 app.get("/", function (req, res) {
   // Filter out private and archived projects
   var gallery = [];
   var projectArray = projects.projects;
   gallery = projectArray;
-  var i;
+
   /*
+  var i;
   for (i = 0; i < projectArray.length; i++) {
     if (!projectArray[i].archive && !projectArray[i].private) {
       gallery.push(projectArray[i]);
@@ -175,19 +164,6 @@ app.get("/", function (req, res) {
     memes,
   });
 });
-
-/*
-app.get("/dev", function (req, res) {
-  res.render("dev", {
-    dev,
-    title: "Dev | Emily Nguyen",
-    url: "dev",
-    path: "dev",
-    description: description,
-    memes,
-  });
-});
-*/
 
 app.get("/about", function (req, res) {
   res.render("about", {

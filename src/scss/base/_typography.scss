@@ -20,7 +20,6 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6,
 p {
   line-height: 1.2;
@@ -28,7 +27,6 @@ p {
 
 h3,
 h4,
-h5,
 h6,
 p {
   @include grid-media-query(portable) {
@@ -66,10 +64,7 @@ h2 {
 h1,
 h2 {
   font-family: $mabry-mono;
-  //font-weight: bold;
   line-height: 1.15;
-  // font-size: 3rem; // 72px
-  // font-size: 2.6rem;
 
   @include grid-media-query(palm) {
     font-size: 2rem;
@@ -84,9 +79,6 @@ h2 {
 
 h3 {
   font-family: $mabry;
-}
-
-h3 {
   text-transform: uppercase;
 }
 
@@ -107,13 +99,13 @@ h5 {
 
 h3,
 h4 {
-  // font-size: 1.5rem;
   font-size: 1.4rem;
 }
 
 h5 {
+  font-family: $mabry-mono;
   font-size: 0.75rem;
-  // font-size: 0.65rem;
+  line-height: 1.3;
 }
 
 .parentheses {
