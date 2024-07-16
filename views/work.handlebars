@@ -6,7 +6,7 @@
   <hr>
   <a href="{{#unless external}}/{{/unless}}{{url}}" class="project-container portable--pb-1 desk--pb-2" {{#if
     external}}target="_blank" {{/if}}>
-    <h5 class="mb-1"># {{sub}}</h5>
+    <h5 class="mb-1">// {{sub}}</h5>
     <div class="grid">
       <div class="grid__item lap--two-thirds desk--one-half">
         <h2>{{title}}</h2>
@@ -23,6 +23,7 @@
   {{/unless}}
   {{/each}}
   <hr>
+  <!--
   {{#with dev}}
   <h3 class="asterisks mt-3 mb-1">Dev Work</h3>
   <div class="grid mb-3">
@@ -35,11 +36,28 @@
     {{/unless}}
     {{/each}}
   </div>
-  <!--
-  <h4 class="styled-links">
-    {{#each projects}}
-    <a href="{{url}}" {{#if newWindow}}target="_blank" {{/if}}>{{title}}</a>{{#if @last}}{{else}},&nbsp;{{/if}}{{/each}}
-  </h4> -->
+
+  {{/with}} -->
+  
+    {{#with dev}}
+    <h3 class="asterisks mt-3 mb-1">Dev Work</h3>
+    <div class="grid mb-3">
+      <div class="grid__item desk--three-quarters">
+      {{#each projects}}
+      {{#unless hide}}
+      
+          <h2 class="styled-links dev-link"><a href="{{url}}" {{#if newWindow}}target="_blank" {{/if}}>{{title}}</a>{{#if
+          img}}<img src="/images/{{img}}" alt="">{{/if}}</h2>
+          <h5 class="desk--hide mb-1">// {{tools}}</h5>
+       
+      {{/unless}}
+      {{/each}}
+      </div>
+       <div class="grid__item desk--one-quarter portable--mb-1">
+          <h5 class="portable--hide tools"></h5>
+        </div>
+    </div>
+
   {{/with}}
 </main>
 
@@ -47,15 +65,22 @@
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
 <script>
-  //  var offset = 80;
+  var $tools = $('body').find('.tools');
+
   $('.dev-link a').hover(function () {
     var $img = $(this).closest('.dev-link').find('img');
+    // Get tools text
+    var toolsVal = $(this).closest('.dev-link').next().text();
+    // Show preview and tools text
     $img.show();
+    $tools.html(toolsVal);
     $(document).mousemove(function (e) {
-      $img.css({ left: e.pageX, top: e.pageY });
+      $img.css({ left: e.pageX, top: e.pageY - $img.height() });
     });
   }, function () {
-    var $img = $(this).closest('.dev-link').find('img');
+    var $img = $(this).closest('.dev-link').find('img'); 
+    // Hide preview and clear tools text
     $img.hide();
+    $tools.html("");  
   });
 </script>

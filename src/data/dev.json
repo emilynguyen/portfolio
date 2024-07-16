@@ -4,36 +4,49 @@
       "title": "Sun God Festival 2019",
       "url": "http://sgf.ucsd.edu/2019",
       "newWindow": true,
+      "tools": "HTML, CSS (Sass), JavaScript (jQuery), Jekyll",
       "img": "sgf/preview.gif"
     },
     {
       "title": "Stride Career Fair",
       "url": "https://emilynguyen.github.io/stride2019/",
       "newWindow": true,
+      "tools": "HTML, CSS (Sass), JavaScript (jQuery), Jekyll",
       "img": "stride/preview.gif"
     },
     {
       "title": "Triton Outfitters",
       "url": "https://to.ucsd.edu",
       "newWindow": true,
+      "tools": "HTML, CSS (Sass), JavaScript (jQuery), Shopify Slate",
       "img": "to/shop-by-collection.jpg"
     },
     {
       "title": "A.S. Graphic Studio",
       "url": "https://asgraphicstudio.ucsd.edu/",
       "newWindow": true,
+      "tools": "HTML, CSS (Sass), JavaScript (jQuery), Jekyll",
       "img": "asgs/preview.png"
     },
     {
       "title": "Design Co",
       "url": "https://ucsddesign.co/",
       "newWindow": true,
+      "tools": "HTML, CSS (Sass), JavaScript (jQuery), Jekyll",
       "img": "design-co/preview.gif"
+    },
+    {
+      "title": "This portfolio",
+      "url": "http://emilynguyen.co",
+      "tools": "HTML, CSS (Sass, CSSWizardry Grids), JavaScript (jQuery), Handlebars",
+      "newWindow": true,
+      "img": "portfolio/preview.gif"
     },
     {
       "title": "Design Frontiers",
       "hide": true,
       "url": "http://frontiers.ucsddesign.co/sp19",
+      "tools": "HTML, CSS (Sass), JavaScript (jQuery), Jekyll",
       "newWindow": true,
       "img": "frontiers/preview.jpg"
     }
