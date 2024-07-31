@@ -1,9 +1,15 @@
+#bio {
+ //max-width: 700px;
+ max-width: 950px;
+ }
+
 #work-page {
   /*
   h2 {
     @include removeTop($ogg-header-line-height);
     @include removeBottom($ogg-header-line-height);
   } */
+   
   .project-container {
     // a
     display: block;
