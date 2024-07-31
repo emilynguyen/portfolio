@@ -2,7 +2,7 @@ var express = require("express");
 var exphbs = require("express-handlebars");
 var hbs = require("handlebars");
 var description =
-  "Emily is a designer, developer, and handpoke tattoo artist based in San Francisco. Currently at Webflow and previously at MongoDB.";
+  "Emily is a designer, developer, and handpoke tattoo artist based in Oakland. Previously at Webflow and MongoDB.";
 
 hbs.registerHelper("ifCond", function (v1, operator, v2, options) {
   switch (operator) {

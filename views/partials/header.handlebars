@@ -1,7 +1,7 @@
 <header class="pb-11">
     <div class="grid grid--rev">
 
-        <div class="grid__item desk--one-third text-right mb-2">
+        <div class="grid__item desk--one-third desk--one-fifth text-right mb-2">
             <ul>
                 <li>
                     <a href="/">
@@ -34,14 +34,14 @@
                 </div>
             </div>
         </div>
-        <div class="grid__item desk--two-thirds mb-1">
+        <div class="grid__item desk--two-third desk--four-fifths mb-1">
             {{#if projectPage}}
             <!--
             {{> iso project=currProject}} -->
             {{else if showBio}}
-            <h2 class="styled-links">
-                Emily <span id="smiley">☻</span> is a designer, developer, and <a style="display: inline" href="https://www.instagram.com/emlypokes/" target="_blank">handpoke tattoo artist</a> based in San Francisco.
-                Currently at <a href="https://www.webflow.com/" target="_blank">Webflow</a> and previously at <a href="https://www.mongodb.com/" target="_blank">MongoDB</a>.
+            <h2 id="bio" class="styled-links">
+                Emily <span id="smiley">☻</span> is a designer, developer, and <a style="display: inline" href="https://www.instagram.com/emlypokes/" target="_blank">handpoke tattoo artist</a> based in Oakland.
+                Previously at <a href="https://www.webflow.com/" target="_blank">Webflow</a> and <a href="https://www.mongodb.com/" target="_blank">MongoDB</a>.
             </h2>
             {{else}}
             {{/if}}
