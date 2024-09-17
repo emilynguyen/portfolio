@@ -153,6 +153,8 @@
   {{/unless}}
   {{/each}}
   {{/with}}
+  
+  {{#unless currProject.unlisted}}
   <hr class="mt-2">
   <div class="grid mt-2 mb-3">
     <div class="grid__item lap-up--one-half palm--mb-2">
@@ -183,6 +185,7 @@
       </a>
     </div>
   </div>
+  {{/unless}}
 </main>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"

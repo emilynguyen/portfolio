@@ -217,21 +217,24 @@ app.get("/:project", function (req, res) {
   var inputTitle = req.params.project;
 
   var projectArray = projects.projects;
-  // Remove hidden projects
   var visibleProjects = [];
+  var unlistedProjects = [];
+
+  // Fill visible and unlisted project arrays
   for (var i = 0; i < projectArray.length; i++) {
     if (!projectArray[i].hide && !projectArray[i].unlisted) {
       visibleProjects.push(projectArray[i]);
+    } else if (projectArray[i].unlisted) {
+      unlistedProjects.push(projectArray[i]);
     }
   }
-  projectArray = visibleProjects;
 
-  // Check if valid project url
-  for (var i = 0; i < projectArray.length; i++) {
-    var currProject = projectArray[i];
+  // Render visible projects
+  for (var i = 0; i < visibleProjects.length; i++) {
+    var currProject = visibleProjects[i];
     var prevProject =
-      projectArray[(i + projectArray.length - 1) % projectArray.length];
-    var nextProject = projectArray[(i + 1) % projectArray.length];
+    visibleProjects[(i + visibleProjects.length - 1) % visibleProjects.length];
+    var nextProject = visibleProjects[(i + 1) % visibleProjects.length];
 
     // Render project page if input title matches a project
     if (inputTitle == currProject.url) {
@@ -243,6 +246,30 @@ app.get("/:project", function (req, res) {
         currProject,
         prevProject,
         nextProject,
+        title: currProject.title + " | Emily Nguyen",
+        url: currProject.url,
+        path: path,
+        description: currProject.description,
+        col1: "desk--one-half",
+        col2: "desk--one-half",
+        memes,
+      });
+      return;
+    }
+  }
+
+   // Render unlisted projects
+   for (var i = 0; i < unlistedProjects.length; i++) {
+    var currProject = unlistedProjects[i];
+  
+    // Render project page if input title matches a project
+    if (inputTitle == currProject.url) {
+      var path = currProject.dev ? "dev" : "design";
+      res.render("project", {
+        darkMode: false,
+        projectPage: true,
+        projects,
+        currProject,
         title: currProject.title + " | Emily Nguyen",
         url: currProject.url,
         path: path,

@@ -543,7 +543,7 @@
     },
     {
       "title": "A.S. Graphic Studio _ New Website",
-      "hide": true,
+      "unlisted": true,
       "year": "18",
       "sub": "UX design, web design, web development",
       "url": "asgs",
