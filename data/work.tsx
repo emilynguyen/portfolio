@@ -29,6 +29,8 @@ export const workProjects: DesignProjectData[] = [
     ),
     image: {
       src: '/images/carta.webp',
+      width: 2396,
+      height: 1886,
       alt: 'Carta.com designs including the navigation menu, footer, pricing page, and the Claude plugins for private capital page',
       sizes: '100vw',
       srcSet: responsive('a736d6b07bd46ac4500c0c9bd0cfc130_carta-p', 'webp', [500, 800, 1080, 1600, 2000], {
@@ -56,7 +58,7 @@ export const workProjects: DesignProjectData[] = [
         </p>
       </>
     ),
-    image: { src: '/images/hb-design.gif', alt: "Page designs from HoneyBook's new website" },
+    image: { src: '/images/hb-design.gif', width: 1920, height: 1280, alt: "Page designs from HoneyBook's new website" },
   },
   {
     variant: 'left-offset',
@@ -77,6 +79,8 @@ export const workProjects: DesignProjectData[] = [
     ),
     image: {
       src: '/images/hb-library.gif',
+      width: 1500,
+      height: 1000,
       alt: 'Preview of the styles and components included in the HoneyBook web component library ',
     },
   },
@@ -90,7 +94,7 @@ export const workProjects: DesignProjectData[] = [
         visualization styles.
       </p>
     ),
-    image: { src: '/images/webflow.gif', alt: 'Data visualizations, ad templates, and social templates for Webflow' },
+    image: { src: '/images/webflow.gif', width: 4000, height: 2523, alt: 'Data visualizations, ad templates, and social templates for Webflow' },
   },
   {
     variant: 'right-center',
@@ -101,7 +105,7 @@ export const workProjects: DesignProjectData[] = [
         align with evolving business objectives.
       </p>
     ),
-    image: { src: '/images/webflow-web.gif', alt: "Web designs for Webflow's careers, DEI, and customer stories pages" },
+    image: { src: '/images/webflow-web.gif', width: 1920, height: 1148, alt: "Web designs for Webflow's careers, DEI, and customer stories pages" },
   },
   {
     variant: 'right-offset',
@@ -115,6 +119,8 @@ export const workProjects: DesignProjectData[] = [
     ),
     image: {
       src: '/images/ad-library.gif',
+      width: 1428,
+      height: 827,
       alt: 'Figma library of MongoDB ad templates organized by campaign, including banner and skyscraper sizes',
     },
   },
@@ -129,6 +135,8 @@ export const workProjects: DesignProjectData[] = [
     ),
     image: {
       src: '/images/mongodb_illustration.png',
+      width: 5682,
+      height: 5904,
       alt: 'MongoDB illustrations',
       sizes: '(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px',
       srcSet: responsive('43ce43d8ddc8486b8f4872caa67b58a6_mongodb_illustration-p', 'png', [500, 800, 1080, 1600, 2000, 2600, 3200], {

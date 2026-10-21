@@ -1,6 +1,9 @@
 export type Img = {
   src: string
   alt: string
+  /** Intrinsic pixel size of the source image. Lets the browser reserve space before it loads (no layout jump). */
+  width?: number
+  height?: number
   sizes?: string
   srcSet?: string
 }

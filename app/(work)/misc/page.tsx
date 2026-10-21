@@ -17,7 +17,7 @@ export default function MiscPage() {
         <div className="w-layout-blockcontainer page-container w-container reveal">
           <div className="design_project_container">
             {miscProjects.map((project, i) => (
-              <DesignProject key={i} {...project} />
+              <DesignProject key={i} priority={i === 0} {...project} />
             ))}
             <h2>Contact me for more work samples. :)</h2>
           </div>

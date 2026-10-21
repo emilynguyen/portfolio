@@ -22,7 +22,12 @@ export type DesignProjectData = {
   image: Img
 }
 
-export default function DesignProject({ variant, title, body, button, image }: DesignProjectData) {
+type Props = DesignProjectData & {
+  /** Load this image right away (use for the first, above-the-fold project). */
+  priority?: boolean
+}
+
+export default function DesignProject({ variant, title, body, button, image, priority = false }: Props) {
   const variantClass = VARIANT_CLASS[variant]
   return (
     <div data-wf--design-project--variant={variant} className={variantClass ? `design-project ${variantClass}` : 'design-project'}>
@@ -39,11 +44,16 @@ export default function DesignProject({ variant, title, body, button, image }: D
       </div>
       <img
         src={image.src}
-        loading="lazy"
+        width={image.width}
+        height={image.height}
+        loading={priority ? 'eager' : 'lazy'}
+        fetchPriority={priority ? 'high' : undefined}
         alt={image.alt}
         sizes={image.sizes}
         srcSet={image.srcSet}
-        className="design-project_thumbnail2"
+        // width/height supply the aspect ratio; w-full gives the image a definite width before it loads, so that
+        // ratio can reserve its height (no layout jump). bg-subtle is the placeholder shown in that space.
+        className="design-project_thumbnail2 h-auto w-full bg-subtle"
       />
     </div>
   )

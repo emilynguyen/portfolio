@@ -46,6 +46,10 @@
   background-color: var(--bg-default);
 }
 
+@utility bg-subtle {
+  background-color: var(--bg-subtle);
+}
+
 @utility text-default {
   color: var(--text-default);
 }

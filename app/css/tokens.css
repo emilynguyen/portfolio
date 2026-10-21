@@ -18,6 +18,9 @@ body {
   /* Body copy and links. */
   --text-default: var(--black);
 
+  /* Quiet fill, e.g. a placeholder behind an image while it loads. */
+  --bg-subtle: var(--gray-02);
+
   /* Filled pills and buttons: light text on a dark fill. */
   --bg-inverse: var(--black);
   --text-inverse: var(--white);
