@@ -1,0 +1,72 @@
+/*
+ * Entry stylesheet: Tailwind utilities + the legacy Webflow CSS.
+ *
+ * The Webflow CSS lives in its own cascade layer *below* utilities, so a Tailwind
+ * class always beats a Webflow class of the same specificity. That lets you migrate
+ * one component at a time: add utilities, delete the matching Webflow rule.
+ *
+ * Tailwind's preflight (its CSS reset) is deliberately NOT imported, because it would
+ * change the look of everything still styled by Webflow's own reset (normalize.css).
+ * Once the Webflow CSS is gone, swap the two `tailwindcss/*` imports below for a single
+ * `@import "tailwindcss";` to get preflight.
+ */
+@layer theme, webflow, utilities;
+
+@import "tailwindcss/theme.css" layer(theme);
+
+@import "./normalize.css" layer(webflow);
+@import "./webflow.css" layer(webflow);
+@import "./emlynguyen.webflow.css" layer(webflow);
+@import "./site.css" layer(webflow);
+@import "./tokens.css" layer(webflow);
+
+@import "tailwindcss/utilities.css" layer(utilities) source(none);
+
+/* Only scan our own source for class names (not legacy/, node_modules, etc.). */
+@source "../../app";
+@source "../../components";
+@source "../../data";
+
+/* Primitive tokens: Webflow's palette and font families, exposed as Tailwind theme values (stay in sync via var()). */
+@theme inline {
+  --color-gray-01: var(--gray-01);
+  --color-gray-02: var(--gray-02);
+  --color-brand: var(--brand);
+
+  --font-primary: var(--_typography---family--primary);
+  --font-secondary: var(--_typography---family--secondary);
+  --font-tertiary: var(--_typography---family--tertiary);
+}
+
+/*
+ * Semantic tokens (defined in tokens.css) as utilities. Each is a named utility for the one
+ * CSS property it applies to, so the class reads the same as the token: `bg-default`, `text-inverse`, `border-default`, ...
+ */
+@utility bg-default {
+  background-color: var(--bg-default);
+}
+
+@utility text-default {
+  color: var(--text-default);
+}
+
+@utility bg-inverse {
+  background-color: var(--bg-inverse);
+}
+
+@utility text-inverse {
+  color: var(--text-inverse);
+}
+
+@utility border-default {
+  border-color: var(--border-default);
+}
+
+@utility border-subtle {
+  border-color: var(--border-subtle);
+}
+
+/* Webflow's breakpoints are desktop-first (max-width), unlike Tailwind's mobile-first ones. */
+@custom-variant tablet (@media (max-width: 991px));
+@custom-variant mobile-landscape (@media (max-width: 767px));
+@custom-variant mobile-portrait (@media (max-width: 479px));

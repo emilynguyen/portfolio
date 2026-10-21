@@ -1,0 +1,30 @@
+/*
+ * Semantic tokens: what a value is *for*, defined in terms of primitive tokens.
+ *
+ *   primitives (the raw palette)    --gray-01, --gray-02, --brand ...   emlynguyen.webflow.css
+ *   semantic   (the role it plays)  --bg-*, --text-*, --border-*     this file
+ *
+ * Components should reach for a semantic token where one fits, so re-theming means
+ * re-pointing a semantic token at a different primitive here, not hunting down usages.
+ *
+ * Declared on `body` as well as `:root` because Webflow re-declares the primitives on `body`
+ * inside its breakpoint media queries; this makes the semantic tokens follow those overrides.
+ */
+:root,
+body {
+  /* Page background. */
+  --bg-default: var(--gray-01);
+
+  /* Body copy and links. */
+  --text-default: var(--black);
+
+  /* Filled pills and buttons: light text on a dark fill. */
+  --bg-inverse: var(--black);
+  --text-inverse: var(--white);
+
+  /* Borders and outlines. */
+  --border-default: var(--black);
+
+  /* Quiet dividers between sections of content. */
+  --border-subtle: var(--gray-02);
+}

@@ -1,6 +1,6 @@
 @font-face {
   font-family: Reddit Mono;
-  src: url('../fonts/RedditMono-VariableFont_wght.ttf') format("truetype");
+  src: url('/fonts/RedditMono-VariableFont_wght.ttf') format("truetype");
   font-weight: 200 900;
   font-style: normal;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: GT Alpina;
-  src: url('../fonts/GT-Alpina-Standard-Light.ttf') format("truetype");
+  src: url('/fonts/GT-Alpina-Standard-Light.ttf') format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: GT Alpina;
-  src: url('../fonts/GT-Alpina-Standard-Light-Italic.ttf') format("truetype");
+  src: url('/fonts/GT-Alpina-Standard-Light-Italic.ttf') format("truetype");
   font-weight: 300;
   font-style: italic;
   font-display: swap;
@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: PP NeueBit;
-  src: url('../fonts/PPNeueBit-Bold.otf') format("opentype");
+  src: url('/fonts/PPNeueBit-Bold.otf') format("opentype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -32,7 +32,7 @@
 
 @font-face {
   font-family: PP Mondwest;
-  src: url('../fonts/PPMondwest-Regular.otf') format("opentype");
+  src: url('/fonts/PPMondwest-Regular.otf') format("opentype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -40,7 +40,7 @@
 
 :root {
   --_spacing---side: 4vw;
-  --gray: #f7f7f7;
+  --gray-01: #f7f7f7;
   --_typography---family--tertiary: "GT Alpina", "Times New Roman", sans-serif;
   --black: black;
   --_typography---size--16px: 1rem;
@@ -58,7 +58,7 @@
   --_typography---size--60px: 3.75rem;
   --_typography---size--120px: 6rem;
   --white: white;
-  --gray-50: #dedede;
+  --gray-02: #dedede;
   --brand: blue;
 }
 
@@ -84,9 +84,9 @@
 body {
   padding-top: var(--_spacing---side);
   padding-bottom: var(--_spacing---side);
-  background-color: var(--gray);
+  background-color: var(--bg-default);
   font-family: var(--_typography---family--tertiary);
-  color: var(--black);
+  color: var(--text-default);
   font-size: var(--_typography---size--16px);
   letter-spacing: -.01rem;
   flex-flow: column;
@@ -164,27 +164,22 @@ p {
 }
 
 a {
-  color: var(--black);
+  color: var(--text-default);
   text-underline-offset: .4rem;
   text-decoration: none;
   text-decoration-thickness: .07em;
 }
 
 blockquote {
-  border-left: 5px solid var(--black);
+  border-left: 5px solid var(--border-default);
   margin-bottom: 10px;
   padding: 10px 20px;
   font-size: 18px;
   line-height: 22px;
 }
 
-.p-xs {
-  font-size: var(--_typography---size--12px\<deleted\|variable-77366858-d125-ff7e-30da-ab292d551789\>);
-  line-height: 150%;
-}
-
 .h1-underline {
-  background-image: url('../images/h1-underline.svg');
+  background-image: url('/images/h1-underline.svg');
   background-position: 0 100%;
   background-repeat: repeat-x;
   background-size: auto;
@@ -195,7 +190,7 @@ blockquote {
 }
 
 .p-underline, .rtb a {
-  background-image: url('../images/p-underline.svg');
+  background-image: url('/images/p-underline.svg');
   background-position: 0 100%;
   background-repeat: repeat-x;
   background-size: auto;
@@ -204,7 +199,7 @@ blockquote {
   display: inline-block;
 }
 
-.container {
+.page-container {
   width: 100%;
   max-width: var(--_spacing---max-content-width);
   padding-right: var(--_spacing---side);
@@ -256,10 +251,6 @@ blockquote {
   display: flex;
 }
 
-.index_right.home_right--footer {
-  align-self: flex-end;
-}
-
 .footer_wrapper {
   width: 100%;
   height: auto;
@@ -276,21 +267,12 @@ blockquote {
   display: flex;
 }
 
-.footer_wrapper.footer {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .h1--serif {
   font-family: var(--_typography---family--tertiary);
   font-size: var(--_typography---size--60px);
   letter-spacing: -.01em;
   font-style: italic;
   line-height: 100%;
-}
-
-.h1--serif.cc-h1-serif-home {
-  font-size: 4.7vw;
 }
 
 .h1--serif.work-header {
@@ -315,7 +297,7 @@ blockquote {
 }
 
 .desktop-icon_img--top {
-  background-color: var(--gray);
+  background-color: var(--bg-default);
   width: 100%;
   position: absolute;
 }
@@ -361,8 +343,8 @@ blockquote {
 }
 
 .pill {
-  background-color: var(--black);
-  color: var(--white);
+  background-color: var(--bg-inverse);
+  color: var(--text-inverse);
   border-radius: 4rem;
   padding: .3rem .75rem .15rem;
   transition: padding .2s cubic-bezier(.175, .885, .32, 1.275);
@@ -377,9 +359,9 @@ blockquote {
 .pill.pill--link {
   grid-column-gap: 6px;
   grid-row-gap: 6px;
-  outline-color: var(--black);
+  outline-color: var(--border-default);
   outline-offset: -1px;
-  color: var(--black);
+  color: var(--text-default);
   background-color: #0000;
   outline-width: 1px;
   outline-style: solid;
@@ -426,10 +408,6 @@ blockquote {
   border-radius: .6rem;
 }
 
-.dev-project_thumbnail-wrapper.stride {
-  background-color: #fff;
-}
-
 .dev-project_thumbnail-wrapper.sgf {
   background-color: #1f1f1f;
 }
@@ -445,7 +423,7 @@ blockquote {
 }
 
 .divider {
-  background-color: var(--gray-50);
+  background-color: var(--border-subtle);
   width: 100%;
   height: 1px;
 }
@@ -454,10 +432,6 @@ blockquote {
   object-fit: cover;
   width: 100%;
   height: 100%;
-}
-
-.dev-project-thumbnail.stride {
-  height: auto;
 }
 
 .dev-project-thumbnail.sgf {
@@ -489,25 +463,6 @@ blockquote {
   text-decoration: none;
 }
 
-.design-project_container {
-  grid-column-gap: 1rem;
-  grid-row-gap: 1rem;
-  flex-flow: row;
-  display: flex;
-}
-
-.design-project_thumbnail {
-  width: 100%;
-}
-
-.design-project_col {
-  grid-column-gap: 1rem;
-  grid-row-gap: 1rem;
-  flex-flow: column;
-  width: 100%;
-  display: flex;
-}
-
 .footer_right {
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
@@ -516,10 +471,6 @@ blockquote {
   justify-content: flex-end;
   align-items: flex-end;
   display: flex;
-}
-
-.footer_right.home_right--footer {
-  align-self: flex-end;
 }
 
 .index_wrapper {
@@ -534,11 +485,6 @@ blockquote {
   flex: 1;
   justify-content: space-between;
   display: flex;
-}
-
-.index_wrapper.footer {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .index_left {
@@ -577,12 +523,6 @@ blockquote {
   padding-right: 15%;
 }
 
-.design-project:where(.w-variant-09035c0a-ed86-0b1c-28a0-1ea3db628aed) {
-  flex-flow: row-reverse;
-  padding-left: 15%;
-  padding-right: 15%;
-}
-
 .design-project_thumbnail2 {
   flex: 1;
   overflow: auto;
@@ -614,56 +554,21 @@ blockquote {
   opacity: .4;
 }
 
-.dev-project_tags {
-  grid-column-gap: .5rem;
-  grid-row-gap: .5rem;
-  flex-flow: column;
-  display: flex;
-}
-
-.utility-page-wrap {
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  max-width: 100%;
-  height: 100vh;
-  max-height: 100%;
-  display: flex;
-}
-
-.utility-page-content {
-  text-align: center;
-  flex-direction: column;
-  width: 260px;
-  display: flex;
-}
-
-.utility-page-form {
-  flex-direction: column;
-  align-items: stretch;
-  display: flex;
-}
-
 .u-word-break-all {
   word-break: break-all;
 }
 
 .btn {
-  background-color: var(--black);
+  background-color: var(--bg-inverse);
   font-family: var(--_typography---family--secondary);
-  color: var(--white);
+  color: var(--text-inverse);
   font-size: var(--_typography---size--24px);
   letter-spacing: .005rem;
   white-space: nowrap;
-  border-radius: .5rem;
   padding: .8rem 1.5rem .75rem;
   font-weight: 700;
   line-height: 100%;
   text-decoration: none;
-}
-
-.btn:hover {
-  border-radius: 4rem;
 }
 
 .design-project_btn {
@@ -690,16 +595,8 @@ blockquote {
     margin-bottom: 8rem;
   }
 
-  .index_right.home_right--footer {
-    align-self: flex-start;
-  }
-
   .footer_wrapper {
     flex-flow: column;
-  }
-
-  .h1--serif.cc-h1-serif-home {
-    font-size: var(--_typography---size--60px);
   }
 
   .h1--serif.work-header {
@@ -716,34 +613,18 @@ blockquote {
     margin-right: 40%;
   }
 
-  .c-desktop-icon_other {
-    margin-left: 60%;
-  }
-
   .desktop-icon_dribbble {
     margin-right: 5%;
-  }
-
-  .section.section--footer {
-    padding-bottom: 0;
   }
 
   .home_subheader {
     margin-bottom: 0;
   }
 
-  .design-project_container {
-    flex-flow: column;
-  }
-
   .footer_right {
     justify-content: center;
     align-self: flex-start;
     align-items: center;
-  }
-
-  .footer_right.home_right--footer {
-    align-self: flex-start;
   }
 
   .index_wrapper {
@@ -777,17 +658,14 @@ blockquote {
     margin-top: 0;
   }
 
-  .dev-project_tags {
-    flex-flow: wrap;
-  }
 }
 
 @media screen and (max-width: 767px) {
   body {
-    --gray: #f7f7f7;
+    --gray-01: #f7f7f7;
     --black: black;
     --white: white;
-    --gray-50: #dedede;
+    --gray-02: #dedede;
     --brand: blue;
     --_typography---family--tertiary: "GT Alpina", "Times New Roman", sans-serif;
     --_typography---size--16px: 1rem;
@@ -857,38 +735,37 @@ blockquote {
   }
 }
 
-
 @font-face {
   font-family: 'Reddit Mono';
-  src: url('../fonts/RedditMono-VariableFont_wght.ttf') format('truetype');
+  src: url('/fonts/RedditMono-VariableFont_wght.ttf') format('truetype');
   font-weight: 200 900;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'GT Alpina';
-  src: url('../fonts/GT-Alpina-Standard-Light.ttf') format('truetype');
+  src: url('/fonts/GT-Alpina-Standard-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'GT Alpina';
-  src: url('../fonts/GT-Alpina-Standard-Light-Italic.ttf') format('truetype');
+  src: url('/fonts/GT-Alpina-Standard-Light-Italic.ttf') format('truetype');
   font-weight: 300;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: 'PP NeueBit';
-  src: url('../fonts/PPNeueBit-Bold.otf') format('opentype');
+  src: url('/fonts/PPNeueBit-Bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'PP Mondwest';
-  src: url('../fonts/PPMondwest-Regular.otf') format('opentype');
+  src: url('/fonts/PPMondwest-Regular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
