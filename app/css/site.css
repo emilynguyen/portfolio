@@ -1,0 +1,83 @@
+html {
+    -webkit-font-smoothing: antialiased;
+  }
+  @media (min-width: 1920px) {
+  	html { font-size: 18px; }
+  }
+  html {
+    height: 100%;
+  }
+  @keyframes move-h1-underline {
+    from {
+        background-position: 0px 100%
+    }
+    to { 
+      	/* width of bg image */
+        background-position: 23px 100%
+    }
+}
+  .h1-underline:hover {
+          animation-name: move-h1-underline;
+      animation-duration: 500ms;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+  }
+  @keyframes move-p-underline {
+      from {
+          background-position: 0px 100%
+      }
+      to { 
+          /* width of bg image */
+          background-position: 6px 100%
+      }
+  }
+  .p-underline:hover, .rtb a:hover {
+      animation-name: move-p-underline;
+      animation-duration: 200ms;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+  }
+  /* Default cursor */
+  /*
+    body {
+      cursor: url('/images/cdn/67a10a305d789974440f8624_21a0dc3be5f614c3df8c1c06d91a870d_default.svg'), auto !important;
+  } */
+  body, .grab, .grabbing, textarea, input[type="text"], input[type="password"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"] {
+      cursor: url('/images/cdn/67a10a305d789974440f8624_21a0dc3be5f614c3df8c1c06d91a870d_default.svg'), auto !important;
+  } 
+  /* Pointer cursor (for links and buttons) */
+  a, button, input[type="submit"] {
+      cursor: url('/images/cdn/67a10a3042a990752fb36924_Type-Pointer.svg'), auto !important;
+  }
+  .cc-folder {
+     cursor: url('/images/cdn/67a10cdda069b991929b9d1c_eyes.svg'), auto !important;
+  }
+
+/* Replaces Webflow IX2 "Folder open/close": swap to the open icon on hover */
+.cc-folder:hover .desktop-icon_img--top {
+  opacity: 0;
+}
+
+/* Replaces Webflow IX2 scroll-into-view: slide up 100px and fade in over 1s (outQuart) */
+@keyframes reveal-up {
+  from { opacity: 0; transform: translateY(100px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.reveal {
+  animation: reveal-up 1s cubic-bezier(0.165, 0.84, 0.44, 1) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal { animation: none; }
+}
+
+/* "tattooing ↗" link: arrow rotates from northeast to east on hover */
+.h-link_arrow {
+  display: inline-block;
+  transition: transform 200ms ease;
+}
+.h-link:hover .h-link_arrow {
+  transform: rotate(45deg);
+}
+@media (prefers-reduced-motion: reduce) {
+  .h-link_arrow { transition: none; }
+}
