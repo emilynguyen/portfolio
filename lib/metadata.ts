@@ -5,6 +5,12 @@ export const SITE_URL = 'https://emilynguyen.co'
 
 const SITE_NAME = 'Emily Nguyen'
 
+/** Metadata every page needs: the base URL that relative URLs resolve against, and the icons. */
+export const baseMetadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
+  icons: { icon: '/images/favicon.png', apple: '/images/webclip.png' },
+}
+
 /** Default description for every page. Pass `description` to `pageMetadata` to override it. */
 export const SITE_DESCRIPTION =
   'Emily is a multidisciplinary designer based in Oakland. She is currently at Carta and was previously at HoneyBook, Webflow, and MongoDB.'
